@@ -1,5 +1,6 @@
 # introcs.cs.princeton.edu-java
 ## some smart algorithms
+```
 .
 ├── README.md
 └── src
@@ -15,3 +16,5 @@
             ├── IntOps.java
             ├── Ruler.java
             └── WindChill.java
+
+```
