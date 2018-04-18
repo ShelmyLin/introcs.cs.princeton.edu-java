@@ -1,5 +1,4 @@
 # introcs.cs.princeton.edu-java
-## some smart algorithms
 ```
 .
 ├── README.md
@@ -12,9 +11,9 @@
         │   ├── UserArgumentsThree.java
         │   └── initials.java
         └── 1.2_built_in_types_of_data
-            ├── Binary.java
+            ├── Binary.java                        # easy
             ├── IntOps.java
-            ├── Ruler.java
+            ├── Ruler.java                         # esay
             └── WindChill.java
 
 ```
