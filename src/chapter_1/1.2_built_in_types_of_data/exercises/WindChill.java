@@ -1,0 +1,31 @@
+/******************************************************************************
+ *  Compilation:  javac WindChill.java
+ *  Execution:    java WindChill t v
+ *
+ *  Given the temperature t (in Fahrenheit) and the wind speed v
+ *  (in miles per hour), compute the wind chill w using the formula
+ *  from the National Weather Service.
+ *
+ *     w = 35.74 + 0.6215*t + (0.4275*t - 35.75)  *  v ^ 0.16
+ *
+ *  Reference:  http://www.nws.noaa.gov/om/windchill/index.shtml
+ *
+ ******************************************************************************/
+
+public class WindChill {
+
+	public static void main(String[] args) {
+		//check input
+		if(args.length != 2) {
+			
+		}
+
+
+		double t = Double.parseDouble(args[0]); // temperature in Fahrenheit
+		double v = Double.parseDouble(args[1]); // velocity of wind
+
+		double w = 35.74 + 0.6215 * t + (0.4275 * t - 35.75) * Math.pow(v, 0.16);
+		
+		System.out.println(w);
+	}
+}
