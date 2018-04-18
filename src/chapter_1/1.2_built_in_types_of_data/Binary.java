@@ -1,14 +1,28 @@
 /******************************************************************************
  *  Compilation:  javac Binary.java
- *  Execution:    java Binary a
+ *  Execution:    java Binary n
  *  
- *  Illustrates the integer operations a + b, a * b, a / b, and a % b.
- *
+ *  Prints out n in binary.
+ * 
  *  % java Binary 5
  *  101
+ *
+ *  % java Binary 106
+ *  1101010
+ *
+ *  % java Binary 0
+ *  0
  * 
- *  % java Binary 8
- *  1000
+ *  % java Binary 16
+ *  10000
+ *
+ *  Limitations
+ *  -----------
+ *  Does not handle negative integers. // I am trying to figure it out
+ *
+ *  Remarks
+ *  -------
+ *  could use Integer.toBinaryString(N) instead.
  *
  ******************************************************************************/
 
