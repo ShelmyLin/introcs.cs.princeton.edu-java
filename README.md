@@ -15,5 +15,8 @@
             ├── IntOps.java
             ├── Ruler.java                         # esay
             └── WindChill.java
-
+        └── 1.3_conditions_and_loops
+            ├── Flip.java
+            ├── HarmonicNumber.java                # easy
+            └── RulerN.java                        # easy
 ```
